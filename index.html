@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
     <title>Finding an item in an Array</title>
 </head>
 <body>
-    <h1>Finding an item in an Array</h1>
-    <input type="text" id="result">
+    <div class="container">
+        <h1>Finding an item in an Array</h1>
+    <label for="array1">Enter Array 1:</label>
+    <input id="array1"></input>
+
+    <label for="array2">Enter Array 2:</label>
+    <input id="array2"></input>
+
+    <button onclick="calculateDifference()">Calculate Difference</button>
+
+    <div id="result"></div>
+    </div>
     <script src="/JS/script.js"></script>
 </body>
 </html>
