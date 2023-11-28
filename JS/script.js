@@ -1,10 +1,10 @@
 // Write a JavaScript function to find the unique elements from two arrays.
 function difference(arr1, arr2) {
-    const a1 = JSON.parse(arr1);
-    const a2 = JSON.parse(arr2);
+    let a1 = arr1.split(',').map(item => item.trim());
+    let a2 = arr2.split(',').map(item => item.trim());
 
-    const a = [];
-    const diff = [];
+    let a = [];
+    let diff = [];
     for (let i = 0; i < a1.length; i++)
         a[a1[i]] = false;
     for (let i = 0; i < a2.length; i++)
