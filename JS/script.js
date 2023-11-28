@@ -10,4 +10,10 @@ function difference(array1, array2) {
     let newArray = [];
     // create a new array - used to store the elements that are present in the first array but not in the second array
     let stoageArray = [];
+
+    // create a for loop
+    // for loop - allows you to execute a block of code repeatedly for a fixed number of times
+    for (let i = 0; i < arrayOne.length; i++) {
+        
+    }
 }
